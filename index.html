@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        
+            Body{
+                background-image: linear-gradient(rgb(0, 32, 107),rgb(71, 70, 71),rgb(0, 0, 0));
+            }
+            
+            
+            .ingredients-list{
+                color: rgb(9, 31, 117);
+            
+            }
+            td{
+                color: rgb(255, 250, 255);
+            }
+            li{
+                color: rgb(104, 99, 255);
+            }
+            strong{
+                color: rgb(100, 0, 125);
+            }
+            ul{
+                border-top: 1px solid rgb(69, 69, 69);
+                border-bottom: 1px solid rgb(69, 69, 69);
+                
+            }
+            
+            .I{
+                border-bottom: 1px solid rgb(69, 69, 69);
+                padding-bottom: 15px;
+            }
+            .steps{
+                border-bottom: 1px solid rgb(69, 69, 69);
+            }
+            
+            
+                
+            
+            #title{
+                border: 5px ridge rgb(5, 16, 87);
+                background: rgb(133, 133, 133);
+                text-align: center;
+                padding: 5px;
+                font-family: HP Simplified;
+                
+            }
+            #contents{
+                border: 5px ridge rgb(5, 16, 87);
+                float:right;
+                width:256px;
+                height:206px;
+                line-height: 25px;
+                text-align: center;
+                background: rgb(184, 184, 184);
+                font-family: convection;
+                padding: 10px;
+                position:relative;
+                right:50px;
+            }
+            #cookies{
+                border: 5px ridge rgb(5, 16, 87);
+                width: 800px;
+                padding: 10px;
+                margin-top: 15px;
+                text-align: center;
+                background: rgb(184, 184, 184);
+                font-size: 1.1em;
+                font-family: convection;
+            }
+            #brownies{
+                border: 5px ridge rgb(5, 16, 87); 
+                width: 800px;
+                padding: 10px;
+                margin-top: 15px;
+                text-align: center;
+                background: rgb(184, 184, 184);
+                font-size: 1.1em;
+                font-family: convection;
+            }
+            #ganache{
+                border: 5px ridge rgb(5, 16, 87);
+                width: 800px;
+                padding: 10px;
+                margin-top: 15px;
+                text-align: center;
+                background: rgb(184, 184, 184);
+                font-size: 1.1em;
+                font-family: convection;
+            }
+            li{
+                text-align: left;
+            }
+            img{
+                border: 5px ridge rgb(97, 97, 97) ;
+                width: 200px;
+                
+            }
+            h2{
+                color: rgb(0, 21, 255);
+                font-family: HP Simplified;
+                border-bottom: 1px solid rgb(69, 69, 69);
+            }
+            button{
+                border: ridge rgb(11, 44, 143);
+                width: 130px;
+                height: 50px;
+                margin: 5px;
+                position: relative;
+                top:-31px;
+                border-radius: 4px;
+                background: rgb(138, 138, 138);
+                font-family: convection;
+                font-size: 1.025em;
+            }
+            #ct{
+                position: relative;
+                top:-17px;
+            }
+            button:active {
+              background-color: rgb(61, 61, 61);
+              box-shadow: 0 5px #666;
+              transform: translateY(4px);
+            }
+            button:hover {
+              background-color: rgb(12, 3, 138);
+              color: white;
+            }
+            table{
+                text-align:center;
+            }
+            #top{
+                position:fixed;
+                right:10px;
+                top:630px;
+            }
+        </style>
+    </head>
+    <body>
+        
+   
+        <h1 id="title">Disappointment's Recipe Book</h1>
+        
+        <div id="contents">
+                <h2 id="ct">Contents:</h2>
+                
+                <a href="#recipe-1"><button>Chocolate Chip Cookies                 </button></a>
+            <a href="#recipe-2"><button>Brownies</button></a>
+            <a href="#recipe-3"><button>Chocolate ganache</button             ></a>
+            
+        </div>
+        
+        <a href="#title"><button id="top">Back To Top</button></a>
+        
+        <div id="cookies">
+            <!--Chocolate chip cookies-->
+        
+        <h2 id="recipe-1">Chocolate Chip Cookies</h2>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2ChocolateChipCookies.jpg/220px-2ChocolateChipCookies.jpg" alt="two chocolate chip cookies" width="100">
+        
+        <ul>
+            <li>Time: 1 hr</li>
+            <li>Serves: 24</li>
+        </ul>
+        
+        
+        <div class="I">
+            <table class="Table">
+            <thead>
+                <tr>
+                    <th class="ingredients-list">Ingredients</th>
+                    <th class="ingredients-list">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Softened Butter</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>White Sugar</td>
+                    <td>1 cup</td>
+                </tr>
+                 <tr>
+                    <td>Packed Brown Sugar</td>
+                    <td>1 cup</td>
+                </tr>
+                 <tr>
+                    <td>Eggs</td>
+                    <td>2</td>
+                </tr>
+                 <tr>
+                    <td>Vanilla extract</td>
+                    <td>2 teaspoons</td>
+                </tr>
+                 <tr>
+                    <td>Baking Soda</td>
+                    <td>1 teaspoons</td>
+                </tr>
+                 <tr>
+                    <td>Hot Water</td>
+                    <td>2 teaspoons</td>
+                </tr>
+                 <tr>
+                    <td>Salt</td>
+                    <td>1/2 teaspoons</td>
+                </tr>
+                 <tr>
+                    <td>Flour</td>
+                    <td>3 cups</td>
+                </tr>
+                 <tr class="last_tr">
+                    <td>Semisweet chocolate chips</td>
+                    <td>2 cups</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        
+        <div class="steps">
+            <p><strong>Step 1:</strong> Preheat oven to 350 degrees F (175 degrees C).
+</p>
+
+        <p><strong>Step 2:</strong>Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.</p>
+        
+        <p><strong>Step 3:</strong>Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.</p>
+        
+    
+        </div>
+        <p><em>Source: <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">allrecipes</a></em></p>
+        </div>
+        
+        
+        
+        
+        
+        <div id="brownies">
+            <!--Brownies-->
+        
+        <h2 id="recipe-2">Brownies</h2>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Chocolatebrownie.JPG/250px-Chocolatebrownie.JPG" alt="Chocolate brownie" width="100">
+        
+        <ul>
+            <li>Time: 35 min</li>
+            <li>Serves: 20</li>
+        </ul>
+        
+        
+        <div class="I">
+            <table>
+            <thead>
+                <tr>
+                    <th class="ingredients-list">Ingredients</th>
+                    <th class="ingredients-list">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Melted butter</td>
+                    <td>1 cup</td>
+                    
+                </tr>
+                <tr>
+                    <td>White sugar</td>
+                    <td>2 cups</td>
+                    
+                </tr>
+                <tr>
+                    <td>Cocoa powder</td>
+                    <td>1/2 cup</td>
+                    
+                </tr>
+                <tr>
+                    <td>Vanilla extract</td>
+                    <td>1 teaspoon</td>
+                    
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>4</td>
+                    
+                </tr>
+                <tr>
+                    <td>Flour</td>
+                    <td>1 1/2 cups</td>
+                    
+                </tr>
+                <tr>
+                    <td>Baking powder</td>
+                    <td>1/2 teaspoon</td>
+                    
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>1/2 teaspoon</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        
+        <div class="steps">
+            <p><strong>Step 1:</strong>Preheat the oven to 350 degrees F (175 degrees C). Grease a 9x13-inch pan.</p>
+
+        <p><strong>Step 2:</strong>Combine the melted butter, sugar, cocoa powder, vanilla, eggs, flour, baking powder, and salt. Spread the batter into the prepared pan. Decorate with walnut halves, if desired.</p>
+        
+        <p><strong>Step 3:</strong>Bake in preheated oven for 20 to 30 minutes or until a toothpick inserted in the center comes out with crumbs, not wet. Cool on wire rack.</p>
+        
+       
+        </div>
+         <p><em>Source:<a href="https://www.allrecipes.com/recipe/9599/quick-and-easy-brownies/">allrecipe</a></em></p>
+        </div>
+        
+        
+        
+        <div id="ganache">
+            <!--Chocolate Ganache-->
+        
+        <h2 id="recipe-3">Chocolate Ganache</h2>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/00_Ganach%C3%A9_de_chocolate.jpg/220px-00_Ganach%C3%A9_de_chocolate.jpg" alt=" Chocolate Ganache" width="100">
+        
+        <ul>
+            <li>Time: 20 mins</li>
+            <li>Serves: 16</li>
+        </ul>
+        
+        
+        <div class="I">
+            <table>
+            <thead>
+                <tr>
+                    <th class="ingredients-list">Ingredients</th>
+                    <th class="ingredients-list">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chopped bittersweet chocolate</td>
+                    <td>9 ounces</td>
+                </tr>
+                <tr>
+                    <td>Heavy Cream</td>
+                    <td>1 cup</td>
+                </tr>
+                 <tr>
+                    <td>Dark rum</td>
+                    <td>1 tablespoon</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        
+        
+        <div class="steps">
+            <p><strong>Step 1:</strong>Place the chocolate into a medium bowl. Heat the cream in a small sauce pan over medium heat. Bring just to a boil, watching very carefully because if it boils for a few seconds, it will boil out of the pot. When the cream has come to a boil, pour over the chopped chocolate, and whisk until smooth. Stir in the rum if desired.</p>
+        
+        <p><strong>Step 2:</strong>Allow the ganache to cool slightly before pouring over a cake. Start at the center of the cake and work outward. For a fluffy frosting or chocolate filling, allow it to cool until thick, then whip with a whisk until light and fluffy.</p>
+        
+        
+        </div>
+        <p><em>Source:<a href="https://www.allrecipes.com/recipe/33647/chocolate-ganache/">allrecipe</a></em></p>
+        </div>
+        
+        
+    </body>
+</html>
